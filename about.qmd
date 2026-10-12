@@ -1,0 +1,5 @@
+---
+title: "About"
+---
+
+Hi, I'm Miguel. This site collects my notes on statistics and data science.
