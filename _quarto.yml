@@ -9,8 +9,14 @@ website:
   twitter-card: true
   navbar:
     right:
+      - text: "Blog"
+        href: index.qmd
       - about.qmd
     tools:
+      - icon: github
+        href: https://github.com/miguelsilva15
+      - icon: linkedin
+        href: https://www.linkedin.com/in/masilvaf/
       - icon: rss
         href: index.xml
   page-footer: "© 2026 Miguel Silva · Text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
