@@ -1,5 +1,9 @@
 /*-- scss:defaults --*/
 
+// The base theme (cosmo) imports Source Sans Pro from Google Fonts. Turn that off:
+// the same font is served from this site instead (see the @font-face rules below).
+$web-font-path: false;
+
 // Plain white page, dark grey text and a single blue accent.
 $body-bg: #ffffff !default;
 $body-color: #343a40 !default;
@@ -20,6 +24,39 @@ $site-rule: #e9ecef !default;
 $site-heading: #212529 !default;
 
 /*-- scss:rules --*/
+
+// Source Sans Pro, self-hosted (files in /fonts, SIL Open Font License).
+@font-face {
+  font-display: swap;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 300;
+  src: url("/fonts/source-sans-pro-latin-300-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 400;
+  src: url("/fonts/source-sans-pro-latin-400-normal.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Sans Pro";
+  font-style: italic;
+  font-weight: 400;
+  src: url("/fonts/source-sans-pro-latin-400-italic.woff2") format("woff2");
+}
+
+@font-face {
+  font-display: swap;
+  font-family: "Source Sans Pro";
+  font-style: normal;
+  font-weight: 700;
+  src: url("/fonts/source-sans-pro-latin-700-normal.woff2") format("woff2");
+}
 
 // A thin line under the navbar instead of a coloured bar.
 .navbar {
