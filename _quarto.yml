@@ -5,13 +5,19 @@ website:
   title: "Miguel Silva"
   description: "Notes on statistics and data science"
   site-url: https://migsilva.com
+  open-graph: true
+  twitter-card: true
   navbar:
     right:
       - about.qmd
+    tools:
+      - icon: rss
+        href: index.xml
+  page-footer: "© 2026 Miguel Silva · Text licensed under [CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)"
 
 format:
   html:
     theme:
-      - cosmo
-      - brand
+      light: flatly
+      dark: darkly
     css: styles.css

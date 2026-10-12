@@ -1,5 +1,16 @@
 ---
 title: "About"
+about:
+  template: jolla
+  links:
+    - icon: linkedin
+      text: LinkedIn
+      href: https://www.linkedin.com/in/masilvaf/
+    - icon: envelope
+      text: Email
+      href: mailto:mig.silva15@gmail.com
 ---
 
-Hi, I'm Miguel. This site collects my notes on statistics and data science.
+Hi, I'm Miguel. I write here about statistics and data science.
+
+This page is a placeholder: a proper introduction is coming soon.
