@@ -32,7 +32,7 @@
     "href": "privacy.html#what-your-browser-loads-from-other-services",
     "title": "Privacy",
     "section": "What your browser loads from other services",
-    "text": "What your browser loads from other services\n\nThe site is hosted on GitHub Pages. GitHub logs the IP address of visitors for security purposes (GitHub privacy statement).\nThe font is loaded from Google Fonts, and the library that renders the formulas (MathJax) from the jsDelivr and cdnjs content networks. These services receive your IP address when your browser requests those files.\nOn posts, the comments box is loaded from giscus.\n\nYour choice of light or dark theme is saved in your own browser and is never sent anywhere."
+    "text": "What your browser loads from other services\n\nThe site is hosted on GitHub Pages. GitHub logs the IP address of visitors for security purposes (GitHub privacy statement).\nThe library that renders the formulas (MathJax) is loaded from the jsDelivr and cdnjs content networks. These services receive your IP address when your browser requests those files. The fonts are served from this site.\nOn posts, the comments box is loaded from giscus.\n\nYour choice of light or dark theme is saved in your own browser and is never sent anywhere."
   },
   {
     "objectID": "privacy.html#your-rights",
