@@ -1,0 +1,31 @@
+---
+title: "Privacy"
+---
+
+This is a personal site. It has no ads, no analytics and no tracking, and it sets no cookies of its own. This page explains the few places where personal data is involved.
+
+## Who is responsible
+
+Miguel Silva. You can reach me at <mig.silva15@gmail.com>.
+
+## Email subscription
+
+If you subscribe to new posts by email, your email address is stored by [Buttondown](https://buttondown.com/legal/privacy), the service that sends the emails. I use it only to tell you about new posts. Open and click tracking are turned off.
+
+Every email has an unsubscribe link. Your address is kept until you unsubscribe, and you can also ask me to delete it at any time.
+
+## Comments
+
+Comments on posts use [giscus](https://giscus.app/) and are stored as GitHub Discussions in this site's public repository. To comment you sign in with your GitHub account, and your comment is public under that account. Reading the site does not require an account.
+
+## What your browser loads from other services
+
+- The site is hosted on GitHub Pages. GitHub logs the IP address of visitors for security purposes ([GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)).
+- The font is loaded from Google Fonts, and the library that renders the formulas (MathJax) from the jsDelivr and cdnjs content networks. These services receive your IP address when your browser requests those files.
+- On posts, the comments box is loaded from giscus.
+
+Your choice of light or dark theme is saved in your own browser and is never sent anywhere.
+
+## Your rights
+
+You can ask me for a copy of the data I hold about you, or to correct or delete it, by writing to the address above. If you think your data has been mishandled you can also complain to your data protection authority (in Spain, the [AEPD](https://www.aepd.es/)).

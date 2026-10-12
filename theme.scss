@@ -136,6 +136,34 @@ div.quarto-post .metadata a {
   color: $site-muted;
 }
 
+// Email subscription box in the right margin, above the categories or the table of contents.
+.subscribe-box {
+  border-bottom: 1px solid $site-rule;
+  margin-bottom: 1.5rem;
+  padding-bottom: 1.25rem;
+}
+
+.subscribe-box .subscribe-title {
+  color: $site-muted;
+  display: block;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  margin-bottom: 0.5rem;
+  text-transform: uppercase;
+}
+
+.subscribe-box .form-control {
+  margin-bottom: 0.5rem;
+}
+
+.subscribe-box .subscribe-note {
+  color: $site-muted;
+  font-size: 0.8rem;
+  margin-bottom: 0;
+  margin-top: 0.6rem;
+}
+
 // Footer in the same muted tone, separated by a thin rule.
 .nav-footer {
   border-top: 1px solid $site-rule;
