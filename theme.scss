@@ -1,0 +1,144 @@
+/*-- scss:defaults --*/
+
+// Plain white page, dark grey text and a single blue accent.
+$body-bg: #ffffff !default;
+$body-color: #343a40 !default;
+$link-color: #2761e3 !default;
+$headings-font-weight: 600 !default;
+
+// Navbar without a colour block: same background as the page.
+$navbar-bg: $body-bg !default;
+$navbar-fg: #495057 !default;
+$navbar-hl: $link-color !default;
+
+// Slightly larger text for long-form reading.
+$font-size-root: 17px !default;
+
+// Muted tone for dates, counts and other secondary text.
+$site-muted: #6c757d !default;
+$site-rule: #e9ecef !default;
+$site-heading: #212529 !default;
+
+/*-- scss:rules --*/
+
+// A thin line under the navbar instead of a coloured bar.
+.navbar {
+  border-bottom: 1px solid $site-rule;
+}
+
+.navbar-brand {
+  font-weight: 600;
+}
+
+// Page titles: no banner, just the heading.
+.quarto-title .title {
+  font-weight: 700;
+}
+
+.quarto-title .subtitle,
+.quarto-title-block .description {
+  color: $site-muted;
+}
+
+// Home listing: date on the left, title and one-line description, thin rules between posts.
+.quarto-listing-default .quarto-post {
+  border-bottom: 1px solid $site-rule;
+  margin-bottom: 1.1rem;
+  padding-bottom: 1.1rem;
+}
+
+.quarto-listing-default .quarto-post:last-child {
+  border-bottom: none;
+}
+
+// On wide screens the date sits in a narrow fixed column; on phones Quarto stacks it under the title.
+@media (min-width: 768px) {
+  div.quarto-post.image-right,
+  div.quarto-post.image-left {
+    flex-direction: row;
+    gap: 1.5rem;
+  }
+
+  div.quarto-post .metadata {
+    flex: 0 0 6.5rem;
+    margin-top: 0.3rem;
+    order: 1;
+    padding-bottom: 0;
+  }
+
+  div.quarto-post .body {
+    flex: 1 1 0;
+    order: 2;
+  }
+}
+
+div.quarto-post .body h3.listing-title {
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+
+// Quarto resets links inside listing items to normal weight, so inherit the heading's.
+div.quarto-post .body h3.listing-title a {
+  color: $site-heading;
+  font-weight: inherit;
+}
+
+div.quarto-post .body h3.listing-title a:hover {
+  color: $link-color;
+}
+
+div.quarto-post .listing-description {
+  margin-bottom: 0;
+  margin-top: 0.25rem;
+}
+
+div.quarto-post .listing-description p {
+  margin-bottom: 0;
+}
+
+div.quarto-post .metadata,
+div.quarto-post .metadata a {
+  color: $site-muted;
+  font-size: 0.85rem;
+  font-variant-numeric: tabular-nums;
+}
+
+// One-line introduction above the listing on the home page.
+.site-intro {
+  color: $site-muted;
+  font-size: 1.2rem;
+  margin-bottom: 2rem;
+  margin-top: 0.5rem;
+}
+
+// Categories in the right margin: a quiet list, highlighted on hover and when selected.
+.quarto-listing-category-title {
+  color: $site-muted;
+  font-size: 0.8rem;
+  font-weight: 600;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.quarto-listing-category .category {
+  color: $body-color;
+  font-size: 0.95rem;
+  padding-top: 0.1rem;
+  padding-bottom: 0.1rem;
+}
+
+.quarto-listing-category .category:hover,
+.quarto-listing-category .category.active {
+  color: $link-color;
+}
+
+.quarto-listing-category .quarto-category-count {
+  color: $site-muted;
+}
+
+// Footer in the same muted tone, separated by a thin rule.
+.nav-footer {
+  border-top: 1px solid $site-rule;
+  color: $site-muted;
+  font-size: 0.85rem;
+}

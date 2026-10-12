@@ -4,8 +4,9 @@
 # (see https://quarto.org/docs/projects/code-execution.html#freeze)
 freeze: true
 
-# Enable banner style title blocks
-title-block-banner: true
+# Plain title block (no coloured banner) and a table of contents in the right margin
+title-block-banner: false
+toc: true
 
 # Comments on every post, stored in this repo's GitHub Discussions (giscus).
 # One discussion per post, matched by the page path, so post URLs should not change.

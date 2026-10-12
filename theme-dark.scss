@@ -1,0 +1,21 @@
+/*-- scss:defaults --*/
+
+// Dark counterpart of theme.scss: same layout, graphite page and a lighter blue.
+$body-bg: #16181c;
+$body-color: #d3d7dc;
+$link-color: #7fa9ff;
+$headings-color: #f1f3f5;
+
+$navbar-bg: $body-bg;
+$navbar-fg: #b3bac2;
+$navbar-hl: $link-color;
+
+$site-muted: #8b939c;
+$site-rule: #2a2e34;
+$site-heading: #f1f3f5;
+
+$border-color: #2a2e34;
+$code-bg: #1f2227;
+$table-color: $body-color;
+$input-bg: #1f2227;
+$input-color: $body-color;
