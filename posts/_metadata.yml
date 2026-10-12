@@ -6,3 +6,16 @@ freeze: true
 
 # Enable banner style title blocks
 title-block-banner: true
+
+# Comments on every post, stored in this repo's GitHub Discussions (giscus).
+# One discussion per post, matched by the page path, so post URLs should not change.
+comments:
+  giscus:
+    repo: miguelsilva15/migsilva.com
+    repo-id: R_kgDOVGTycQ
+    category: Announcements
+    category-id: DIC_kwDOVGTycc4DIHFq
+    mapping: pathname
+    theme:
+      light: light
+      dark: dark
