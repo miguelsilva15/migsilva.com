@@ -1,10 +1,45 @@
 [
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "Miguel Silva",
+    "objectID": "privacy.html",
+    "href": "privacy.html",
+    "title": "Privacy",
     "section": "",
-    "text": "Notes on statistics and data science. The first posts are on their way.\n\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "This is a personal site. It has no ads, no analytics and no tracking, and it sets no cookies of its own. This page explains the few places where personal data is involved."
+  },
+  {
+    "objectID": "privacy.html#who-is-responsible",
+    "href": "privacy.html#who-is-responsible",
+    "title": "Privacy",
+    "section": "Who is responsible",
+    "text": "Who is responsible\nMiguel Silva. You can reach me at mig.silva15@gmail.com."
+  },
+  {
+    "objectID": "privacy.html#email-subscription",
+    "href": "privacy.html#email-subscription",
+    "title": "Privacy",
+    "section": "Email subscription",
+    "text": "Email subscription\nIf you subscribe to new posts by email, your email address is stored by Buttondown, the service that sends the emails. I use it only to tell you about new posts. Open and click tracking are turned off.\nEvery email has an unsubscribe link. Your address is kept until you unsubscribe, and you can also ask me to delete it at any time."
+  },
+  {
+    "objectID": "privacy.html#comments",
+    "href": "privacy.html#comments",
+    "title": "Privacy",
+    "section": "Comments",
+    "text": "Comments\nComments on posts use giscus and are stored as GitHub Discussions in this site’s public repository. To comment you sign in with your GitHub account, and your comment is public under that account. Reading the site does not require an account."
+  },
+  {
+    "objectID": "privacy.html#what-your-browser-loads-from-other-services",
+    "href": "privacy.html#what-your-browser-loads-from-other-services",
+    "title": "Privacy",
+    "section": "What your browser loads from other services",
+    "text": "What your browser loads from other services\n\nThe site is hosted on GitHub Pages. GitHub logs the IP address of visitors for security purposes (GitHub privacy statement).\nThe font is loaded from Google Fonts, and the library that renders the formulas (MathJax) from the jsDelivr and cdnjs content networks. These services receive your IP address when your browser requests those files.\nOn posts, the comments box is loaded from giscus.\n\nYour choice of light or dark theme is saved in your own browser and is never sent anywhere."
+  },
+  {
+    "objectID": "privacy.html#your-rights",
+    "href": "privacy.html#your-rights",
+    "title": "Privacy",
+    "section": "Your rights",
+    "text": "Your rights\nYou can ask me for a copy of the data I hold about you, or to correct or delete it, by writing to the address above. If you think your data has been mishandled you can also complain to your data protection authority (in Spain, the AEPD)."
   },
   {
     "objectID": "about.html",
@@ -12,5 +47,12 @@
     "title": "About",
     "section": "",
     "text": "Hi, I’m Miguel. I write here about statistics and data science.\nThis page is a placeholder: a proper introduction is coming soon."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "Miguel Silva",
+    "section": "",
+    "text": "Notes on statistics and data science. The first posts are on their way.\n\n\n\n\n\n\n\n\n\nNo matching items"
   }
 ]
