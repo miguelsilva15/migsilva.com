@@ -1,0 +1,20 @@
+---
+pagetitle: "Miguel Silva · En español"
+lang: es
+listing:
+  contents: posts
+  feed: true
+  sort: "date"          # oldest first: the series reads from chapter 1
+  type: default
+  fields: [date, reading-time, title, subtitle, description]
+  date-format: "YYYY-MM-DD"
+  categories: true
+  sort-ui: false
+  filter-ui: false
+page-layout: full
+title-block-banner: false
+---
+
+::: {.site-intro}
+Notas en español.
+:::

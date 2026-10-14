@@ -1,0 +1,18 @@
+# Options for every post of the Spanish section
+lang: es
+freeze: true
+title-block-banner: false
+toc: true
+
+# Same comments set-up as the English posts (see posts/_metadata.yml)
+comments:
+  giscus:
+    repo: miguelsilva15/migsilva.com
+    repo-id: R_kgDOVGTycQ
+    category: Announcements
+    category-id: DIC_kwDOVGTycc4DIHFq
+    mapping: pathname
+    language: es
+    theme:
+      light: light
+      dark: dark

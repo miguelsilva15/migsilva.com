@@ -1,9 +1,18 @@
-<!-- Email subscription (Buttondown). A plain form post, as Buttondown requires: no JavaScript. -->
-<div class="subscribe-box">
+<!-- Email subscription (Buttondown). Plain form posts, as Buttondown requires: no JavaScript.
+     Two copies, one per language; theme.scss shows the one that matches the page's lang attribute. -->
+<div class="subscribe-box" lang="en">
   <form action="https://buttondown.com/api/emails/embed-subscribe/migsilva15" method="post" target="_blank">
     <label for="subscribe-email" class="subscribe-title">New posts by email</label>
     <input type="email" name="email" id="subscribe-email" class="form-control form-control-sm" placeholder="you@example.com" autocomplete="email" required>
     <button type="submit" class="btn btn-outline-primary btn-sm">Subscribe</button>
   </form>
   <p class="subscribe-note">No tracking, unsubscribe anytime. <a href="/privacy.html">Privacy</a> · <a href="/index.xml">RSS</a></p>
+</div>
+<div class="subscribe-box" lang="es">
+  <form action="https://buttondown.com/api/emails/embed-subscribe/migsilva15" method="post" target="_blank">
+    <label for="subscribe-email-es" class="subscribe-title">Posts nuevos por correo</label>
+    <input type="email" name="email" id="subscribe-email-es" class="form-control form-control-sm" placeholder="tu@correo.com" autocomplete="email" required>
+    <button type="submit" class="btn btn-outline-primary btn-sm">Suscribirme</button>
+  </form>
+  <p class="subscribe-note">Sin seguimiento; te das de baja cuando quieras. <a href="/privacy.html">Privacidad</a> · <a href="/es/index.xml">RSS</a></p>
 </div>

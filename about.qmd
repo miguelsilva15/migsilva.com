@@ -11,6 +11,15 @@ about:
       href: mailto:mig.silva15@gmail.com
 ---
 
-Hi, I'm Miguel. I write here about statistics and data science.
+Hi, I'm Miguel Silva. I write here mostly about statistics, data science and AI,
+though some of my other passions may show up too.
 
-This page is a placeholder: a proper introduction is coming soon.
+My background is in software engineering, but I've spent my whole career as a data
+scientist. These days I work in marketing science.
+
+Launching this blog is something I've wanted to do for a while, and AI helped me get
+it off the ground. I'm also using it to recover some of my older posts and update
+them. For me, that's the most interesting part: going back to see what I knew at some
+point, and how much my way of thinking has changed over the years.
+
+So join me, and let's learn a bit more together.
