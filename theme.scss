@@ -124,6 +124,14 @@ div.quarto-post .body h3.listing-title a:hover {
   color: $link-color;
 }
 
+div.quarto-post .body .listing-subtitle,
+div.quarto-post .body .listing-subtitle a {
+  color: $site-muted;
+  font-size: 0.85rem;
+  margin-bottom: 0.2rem;
+  margin-top: 0.15rem;
+}
+
 div.quarto-post .listing-description {
   margin-bottom: 0;
   margin-top: 0.25rem;
@@ -180,6 +188,12 @@ div.quarto-post .metadata a {
   padding-bottom: 1.25rem;
 }
 
+// The box exists once per language: hide the copy that does not match the page language.
+html:not([lang^="es"]) .subscribe-box[lang="es"],
+html[lang^="es"] .subscribe-box[lang="en"] {
+  display: none;
+}
+
 .subscribe-box .subscribe-title {
   color: $site-muted;
   display: block;
@@ -199,6 +213,29 @@ div.quarto-post .metadata a {
   font-size: 0.8rem;
   margin-bottom: 0;
   margin-top: 0.6rem;
+}
+
+// Videos inside posts: YouTube embeds keep a 16:9 box, self-hosted looping clips behave like images.
+.video-embed {
+  aspect-ratio: 16 / 9;
+  border: 0;
+  width: 100%;
+}
+
+.looping-clip {
+  display: block;
+  height: auto;
+  max-width: 100%;
+}
+
+// Saved results of a notebook cell, shown under its code: no code background, a thin rule on the left.
+.nb-output pre {
+  background: transparent;
+  border-left: 3px solid $site-rule;
+  border-radius: 0;
+  color: $site-muted;
+  margin-top: -0.4rem;
+  padding: 0.2rem 0 0.2rem 0.9rem;
 }
 
 // Footer in the same muted tone, separated by a thin rule.

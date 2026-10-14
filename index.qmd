@@ -1,7 +1,9 @@
 ---
 pagetitle: "Miguel Silva"
 listing:
-  contents: posts
+  contents:
+    - posts
+    - "!es/**"        # the Spanish section has its own listing (es/index.qmd)
   feed: true
   sort: "date desc"
   type: default
@@ -15,5 +17,5 @@ title-block-banner: false
 ---
 
 ::: {.site-intro}
-Notes on statistics and data science. The first posts are on their way.
+Notes on statistics, data science and AI, and whatever else catches my curiosity. Some posts are in English and some only in Spanish; you'll find the Spanish ones, starting with a series on reinforcement learning, under [Español](es/index.qmd).
 :::

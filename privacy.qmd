@@ -23,6 +23,7 @@ Comments on posts use [giscus](https://giscus.app/) and are stored as GitHub Dis
 - The site is hosted on GitHub Pages. GitHub logs the IP address of visitors for security purposes ([GitHub privacy statement](https://docs.github.com/en/site-policy/privacy-policies/github-general-privacy-statement)).
 - The library that renders the formulas (MathJax) is loaded from the jsDelivr and cdnjs content networks. These services receive your IP address when your browser requests those files. The fonts are served from this site.
 - On posts, the comments box is loaded from giscus.
+- A few posts embed YouTube videos, in YouTube's privacy-enhanced mode. Opening one of those posts makes your browser contact YouTube (Google).
 
 Your choice of light or dark theme is saved in your own browser and is never sent anywhere.
 
