@@ -2,11 +2,15 @@
 title: "Privacy"
 ---
 
-This is a personal site. It has no ads, no analytics and no tracking, and it sets no cookies of its own. This page explains the few places where personal data is involved.
+This is a personal site. It has no ads and no tracking, and it sets no cookies of its own. It counts visits, but without identifying anyone. This page explains the few places where personal data is involved.
 
 ## Who is responsible
 
 Miguel Silva. You can reach me at <mig.silva15@gmail.com>.
+
+## Visit counts
+
+I count visits with [GoatCounter](https://www.goatcounter.com/help/privacy), which keeps only totals: which pages are read, which site sent you here, your browser and operating system, your approximate location (worked out from your IP address), your screen size and your language. It sets no cookies and stores nothing in your browser. Your IP address and full browser details are never written to disk: GoatCounter keeps them in memory for up to 8 hours, so that one visit is not counted twice. The data is stored in Finland and Germany and is not shared with anyone else.
 
 ## Email subscription
 
