@@ -1,1 +1,26 @@
 /* css styles */
+
+/* Wide display equations scroll sideways inside their own box instead of widening the page.
+   A horizontal scroll box always clips vertically too, so the padding gives tall glyphs room
+   (MathJax 4's default is only .3em). The negative margin takes the extra padding back, so
+   the space around each equation stays the same. The selector starts with main so it beats
+   MathJax's own mjx-container[display] rule, which is injected after this file. */
+main mjx-container[display="true"] {
+  overflow-x: auto;
+  overflow-y: hidden;
+  padding-block: 1.5em;
+  margin-block: -1.2em;
+}
+
+/* Captions sit under the image, so center them like the image. */
+.quarto-figure-center > figure > figcaption {
+  text-align: center;
+}
+
+/* On phones, wide tables scroll sideways too. */
+@media (max-width: 576px) {
+  main table {
+    display: block;
+    overflow-x: auto;
+  }
+}
