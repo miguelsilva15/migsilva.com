@@ -45,9 +45,9 @@ If you only keep five things from the book, keep these:
 ## The series
 
 1.  [**Part 1: Foundations**](../statistical-inference-part-1-foundations/index.qmd) (chapters 1–4). Sets and counting, probability, the common distributions, and multiple random variables.
-2.  **Part 2: From Sample to Estimate** (chapters 5–7, coming 2 November). Random samples and the CLT, sufficiency, and how to find and evaluate estimators.
-3.  **Part 3: Testing and Intervals** (chapters 8–9, coming 9 November). Hypothesis tests, p-values and confidence intervals.
-4.  **Part 4: Large Samples and Models** (chapters 10–12, coming 16 November). Asymptotics, the bootstrap, ANOVA, and linear, logistic and robust regression.
+2.  **Part 2: From Sample to Estimate** (chapters 5–7, coming soon). Random samples and the CLT, sufficiency, and how to find and evaluate estimators.
+3.  **Part 3: Testing and Intervals** (chapters 8–9, coming soon). Hypothesis tests, p-values and confidence intervals.
+4.  **Part 4: Large Samples and Models** (chapters 10–12, coming soon). Asymptotics, the bootstrap, ANOVA, and linear, logistic and robust regression.
 
 When the four parts are out, the summary will also be on a single page, for when you (or I) just need to look something up.
 
